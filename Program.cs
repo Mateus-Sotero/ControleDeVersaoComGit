@@ -2,4 +2,5 @@
 using System.Data;
 
 Console.WriteLine("Hello, World!");
-Console.WriteLine(DataSetDateTime.Now.ToLongDateString());
+Console.WriteLine(DateTime.Now.ToLongDateString());
+Console.WriteLine("Versão da aplicação: 1.0");
